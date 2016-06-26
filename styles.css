@@ -1,0 +1,13 @@
+/**********************************************
+TITLE
+**********************************************/
+
+.headline {
+  background-color: #67989A;
+  padding: 2.5%;
+  border: 3px solid #061539;
+}
+
+.headline h1 {
+  text-align: center;
+}
