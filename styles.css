@@ -1,17 +1,27 @@
-/**********************************************
-TITLE
-**********************************************/
+
+.box {
+    border: 3px solid #061539;
+    padding: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .headline {
   background-color: #67989A;
   padding: 2.5%;
-  border: 3px solid #061539;
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .headline h1 {
+  text-align: center;
+}
+
+.sub-headline {
+    background-color: #67989a;
+    width: 25%;
+    margin-top: 25px;
+}
+.sub-headline h2 {
   text-align: center;
 }
 
