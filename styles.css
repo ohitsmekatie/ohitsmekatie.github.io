@@ -1,4 +1,8 @@
 
+/**********************************************
+PAGE: index
+***********************************************/
+
 .box {
     border: 3px solid #061539;
     padding: 2.5%;
@@ -27,4 +31,51 @@
 
 .wrapper {
   width: 100%;
+}
+
+
+/**********************************************
+PAGE: home
+***********************************************/
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #6BA099;
+  padding: 20px 10px 20px 10px;
+  font-size: 20px;
+}
+header:afer {
+    clear: both;
+}
+
+
+.header a, .header a:visited, .header a:active {
+  text-decoration: none;
+  color: #A25188;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-list {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  display: table;
+}
+
+nav:after {
+  clear: both;
+}
+
+.nav-item {
+  padding: 5px;
+  display: inline;
 }
