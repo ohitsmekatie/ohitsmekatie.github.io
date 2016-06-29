@@ -41,21 +41,22 @@ PAGE: home
 html, body {
   margin: 0;
   padding: 0;
+  background-color: #6E92A1;
 }
 
 .header {
-  background-color: #6BA099;
+  background-color: #477186;
   padding: 20px 10px 20px 10px;
   font-size: 20px;
+  border: 5px solid #032536;
 }
 header:after {
     clear: both;
 }
 
-
 .header a, .header a:visited, .header a:active {
   text-decoration: none;
-  color: #A25188;
+  color: white;
 }
 
 ul {
@@ -76,16 +77,26 @@ nav:after {
 }
 
 .nav-item {
-  padding: 5px;
+  padding: 10px;
   display: inline;
+  border: 5px solid #032536;
+  margin: 10px
 }
 
-
 /**********************************************
-psuedo class
+psuedo class: INDEX
 ***********************************************/
 
 .box:hover {
   background-color: #A25188;
   color: white;
+}
+
+/**********************************************
+psuedo class: HOME
+***********************************************/
+
+.nav-item:hover {
+  background-color: #CF91B4;
+  border: 5px solid #4B042C;
 }
