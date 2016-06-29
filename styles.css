@@ -79,3 +79,13 @@ nav:after {
   padding: 5px;
   display: inline;
 }
+
+
+/**********************************************
+psuedo class
+***********************************************/
+
+.box:hover {
+  background-color: #A25188;
+  color: white;
+}
