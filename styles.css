@@ -4,16 +4,22 @@ PAGE: index
 ***********************************************/
 
 .box {
-    border: 3px solid #061539;
+    border: 5px solid #032536;
     padding: 2.5%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .headline {
-  background-color: #67989A;
+  background-color: #477186;
   padding: 2.5%;
   width: 50%;
+  color: white;
+}
+
+.headline:hover {
+  background-color: #CF91B4;
+  border: 5px solid #4B042C;
 }
 
 .headline h1 {
@@ -21,10 +27,17 @@ PAGE: index
 }
 
 .sub-headline {
-    background-color: #67989a;
+    background-color: #477186;
     width: 25%;
     margin-top: 25px;
+    color: white;
 }
+
+.sub-headline:hover {
+  background-color: #CF91B4;
+  border: 5px solid #4B042C;
+}
+
 .sub-headline h2 {
   text-align: center;
 }
@@ -33,6 +46,26 @@ PAGE: index
   width: 100%;
 }
 
+p {
+  text-align:center;
+}
+
+a {
+  font-size: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #032536;
+}
+
+a:visited {
+  color:#032536;
+}
+
+a:hover {
+  color:white;
+}
 
 /**********************************************
 PAGE: home
@@ -50,6 +83,7 @@ html, body {
   font-size: 20px;
   border: 5px solid #032536;
 }
+
 header:after {
     clear: both;
 }
