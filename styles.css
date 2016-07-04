@@ -11,6 +11,10 @@ PAGE: index
     margin-top: 20px;
 }
 
+.box-text {
+  text-shadow: 5px 8px 5px #032536;
+}
+
 .headline {
   background-color: #477186;
   padding: 2.5%;
@@ -21,6 +25,7 @@ PAGE: index
 .headline:hover {
   background-color: #CF91B4;
   border: 5px solid #4B042C;
+  text-shadow: 5px 8px 5px #4B042C;
 }
 
 .headline h1 {
@@ -37,6 +42,7 @@ PAGE: index
 .sub-headline:hover {
   background-color: #CF91B4;
   border: 5px solid #4B042C;
+  text-shadow: 5px 8px 5px #4B042C;
 }
 
 .sub-headline h2 {
@@ -141,7 +147,6 @@ nav:after {
   border-radius: 5px;
   padding: 10px;
 }
-
 
 .footer ul{
   display: inline;
