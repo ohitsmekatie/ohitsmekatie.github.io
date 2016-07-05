@@ -1,0 +1,38 @@
+/* PAGE: index */
+
+a, a:visited, a:active{
+  text-decoration: none;
+  color: black
+}
+
+.header {
+  border: 5px solid #032536;
+  padding: 1.5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.nav-list {
+  list-style: none;
+  display: inline;
+  float: right;
+}
+
+.nav-item {
+  padding: 10px;
+  display: inline;
+  border: 5px solid #032536;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.nav-item:hover {
+  background: lightgrey;
+}
