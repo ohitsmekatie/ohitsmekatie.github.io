@@ -13,6 +13,10 @@ a, a:visited, a:active{
   margin-top: 20px;
 }
 
+.home-text {
+  font-size: 20px;
+}
+
 img {
   height: 100px;
   width: 100px;
@@ -27,7 +31,7 @@ img {
 .nav-item {
   padding: 10px;
   display: inline;
-  border: 5px solid #032536;
+  border: 4px solid #032536;
   margin: 10px;
   border-radius: 5px;
   font-size: 20px;
@@ -35,4 +39,5 @@ img {
 
 .nav-item:hover {
   background: lightgrey;
+  font-style: italic;
 }
