@@ -17,10 +17,11 @@ a, a:visited, a:active{
   font-size: 20px;
 }
 
-img {
+.cat-icon {
+  width: auto;
   height: 100px;
-  width: 100px;
 }
+
 
 .nav-list {
   list-style: none;
@@ -39,5 +40,4 @@ img {
 
 .nav-item:hover {
   background: lightgrey;
-  font-style: italic;
 }
