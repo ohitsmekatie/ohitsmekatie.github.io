@@ -41,6 +41,7 @@ a, a:visited, a:active{
 .nav-item:hover {
   background: lightgrey;
 }
+
 /******************** PAGE: index ********************/
 
 .intro-text {
@@ -62,6 +63,11 @@ a, a:visited, a:active{
   margin: 0 5px;
 }
 
+/******************** PAGE: skills ********************/
+
+.headline-text {
+  font-size: 25px;
+}
 
 /******************** graph styles for skills ********************/
 
