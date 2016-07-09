@@ -1,4 +1,5 @@
-/* PAGE: index */
+
+/******************** header ********************/
 
 a, a:visited, a:active{
   text-decoration: none;
@@ -40,7 +41,67 @@ a, a:visited, a:active{
 .nav-item:hover {
   background: lightgrey;
 }
+/******************** PAGE: index ********************/
 
 .intro-text {
     text-align: center;
+}
+
+.contact-list {
+  list-style:none;
+  text-align: center;
+}
+
+.contact-list li {
+  display: inline;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
+
+
+/******************** graph styles for skills ********************/
+
+.bar-graph {
+    list-style: none;
+    padding-top: 10px;
+    width: 45%;
+}
+
+ul.bar-graph li {
+    height: 35px;
+    color: black;
+    text-align: left;
+    font-weight:bolder;
+    font-size: 14px;
+    line-height: 35px;
+    padding: 0px 20px;
+    margin-bottom: 5px;
+}
+
+ul.bar-graph li.red {
+background: #D46D6A;
+border: solid 3px #550200;
+width:100%;
+}
+
+ul.bar-graph li.orange {
+background: #D49B6A;
+width:90%;
+border: solid 3px #552700;
+}
+
+ul.bar-graph li.blue {
+background: #417D80;
+width:80%;
+border: solid 3px #003133;
+}
+
+ul.bar-graph li.green {
+background: #54A759;
+width:70%;
+border: solid 3px #004304;
 }
