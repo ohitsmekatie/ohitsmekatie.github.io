@@ -22,7 +22,6 @@ a, a:visited, a:active{
   height: 100px;
 }
 
-
 .nav-list {
   list-style: none;
   display: inline;
@@ -40,4 +39,8 @@ a, a:visited, a:active{
 
 .nav-item:hover {
   background: lightgrey;
+}
+
+.intro-text {
+    text-align: center;
 }
