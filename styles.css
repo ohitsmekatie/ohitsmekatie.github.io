@@ -1,4 +1,9 @@
 
+body, html, ul {
+  padding: 0;
+  margin: 0;
+}
+
 /******************** header ********************/
 
 a, a:visited, a:active{
@@ -44,10 +49,14 @@ a, a:visited, a:active{
 
 /******************** PAGE: index ********************/
 
-.intro-text {
-    text-align: center;
+.wrapper {
+  width: 1200px
 }
 
+.home-stuff {
+  margin: 0 auto;
+  text-align: center;
+}
 .contact-list {
   list-style:none;
   text-align: center;
@@ -58,9 +67,8 @@ a, a:visited, a:active{
 }
 
 .social-icon {
-  width: 50px;
-  height: 50px;
-  margin: 0 5px;
+  width: 40px;
+  height: 40px;
 }
 
 /******************** PAGE: skills ********************/
