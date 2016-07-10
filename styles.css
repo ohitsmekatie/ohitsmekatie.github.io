@@ -69,6 +69,7 @@ a, a:visited, a:active{
 .social-icon {
   width: 40px;
   height: 40px;
+  padding: 7px;
 }
 
 /******************** PAGE: skills ********************/
