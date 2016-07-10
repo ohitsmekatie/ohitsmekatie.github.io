@@ -158,7 +158,16 @@ width:70%;
 border: solid 3px black;
 color: #552700;
 }
+/*********** projects ***********/
 
+.project-image {
+  height: 200px;
+  width: auto;
+}
+
+.project-list li{
+  display:inline;
+}
 /*********** footer ***********/
 
 .footer {
