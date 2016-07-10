@@ -1,3 +1,4 @@
+/******************** general ********************/
 
 * {
   padding: 0;
@@ -7,15 +8,48 @@
 body, html {
   height: 100%;
 }
+
 .wrapper {
   width: 1200px;
   min-height: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.row .col-1-3:first-child {
+  padding-left: 0;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.col-1-2 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 42%;
+  float: left;
+}
+
+.col-1-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 31.25%;
+  float: left;
 }
 
 .main-content {
   padding-top: 50px;
   overflow: auto;
   padding-bottom: 100px;
+  width: 100%;
+}
+
+.headline-text {
+  margin-bottom: 20px;
+  font-size: 25px;
 }
 
 /******************** header ********************/
@@ -64,17 +98,13 @@ a, a:visited, a:active{
 
 /******************** PAGE: skills ********************/
 
-.headline-text {
-  font-size: 25px;
-  text-align: center;
-}
 
 /******************** graph styles for skills ********************/
 
 .bar-graph {
-    list-style: none;
-    padding-top: 10px;
-    width: 100%;
+  list-style: none;
+  padding-top: 10px;
+  width: 100%;
 }
 
 .left-graph {
@@ -161,13 +191,27 @@ color: #552700;
 /*********** projects ***********/
 
 .project-image {
-  height: 200px;
+  height: 100px;
   width: auto;
 }
 
 .project-list li{
   display:inline;
 }
+
+.project-image {
+  position: relative;
+  border: solid 3px black;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: auto;
+}
+
+.project-image:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
 /*********** footer ***********/
 
 .footer {
