@@ -1,7 +1,21 @@
 
-body, html, ul {
+* {
   padding: 0;
   margin: 0;
+}
+
+body, html {
+  height: 100%;
+}
+.wrapper {
+  width: 1200px;
+  min-height: 80%;
+}
+
+.main-content {
+  padding-top: 50px;
+  overflow: auto;
+  padding-bottom: 100px;
 }
 
 /******************** header ********************/
@@ -14,8 +28,8 @@ a, a:visited, a:active{
 .header {
   border: 5px solid #032536;
   padding: 1.5%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 20px;
 }
 
@@ -23,15 +37,15 @@ a, a:visited, a:active{
   font-size: 20px;
 }
 
-.cat-icon {
+.nav-icon {
   width: auto;
   height: 100px;
 }
 
 .nav-list {
   list-style: none;
-  display: inline;
   float: right;
+  padding-top: 20px;
 }
 
 .nav-item {
@@ -47,19 +61,121 @@ a, a:visited, a:active{
   background: lightgrey;
 }
 
-/******************** PAGE: index ********************/
 
-.wrapper {
-  width: 1200px
-}
+/******************** PAGE: skills ********************/
 
-.home-stuff {
-  margin: 0 auto;
+.headline-text {
+  font-size: 25px;
   text-align: center;
 }
+
+/******************** graph styles for skills ********************/
+
+.bar-graph {
+    list-style: none;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.left-graph {
+  padding-left: 30px;
+  width: 44.5%;
+  float:left;
+}
+
+.right-graph {
+  padding-left: 100px;
+  width: 44.5%;
+  float: left;
+}
+
+ul.bar-graph li {
+    height: 35px;
+    text-align: left;
+    font-weight:bolder;
+    font-size: 14px;
+    line-height: 35px;
+    padding: 0px 20px;
+    margin-bottom: 5px;
+}
+
+/*********** left bar ***********/
+
+ul.bar-graph li.red-one {
+background: #550000;
+border: solid 3px black;
+width:100%;
+color: #FFAAAA;
+}
+
+ul.bar-graph li.red-two {
+background: #801515;
+width:90%;
+border: solid 3px black;
+color: #D46A6A;
+}
+
+ul.bar-graph li.red-three {
+background: #D46A6A;
+width:80%;
+border: solid 3px black;
+color: #801515;
+}
+
+ul.bar-graph li.red-four {
+background: #FFAAAA;
+width:70%;
+border: solid 3px black;
+color: #550000;
+}
+
+/*********** right bar ***********/
+
+ul.bar-graph li.orange-one {
+background: #552700;
+border: solid 3px black;
+width:100%;
+color: #FFD1AA;
+}
+
+ul.bar-graph li.orange-two {
+background: #804515;
+width:90%;
+border: solid 3px black;
+color: #D49A6A;
+}
+
+ul.bar-graph li.orange-three {
+background: #D49A6A;
+width:80%;
+border: solid 3px black;
+color: #804515;
+}
+
+ul.bar-graph li.orange-four {
+background: #FFD1AA;
+width:70%;
+border: solid 3px black;
+color: #552700;
+}
+
+/*********** footer ***********/
+
+.footer {
+  position: relative;
+	margin-top: -150px;
+	height: 150px;
+	clear:both;
+}
+
+.footer p {
+  text-align: center;
+}
+
 .contact-list {
   list-style:none;
   text-align: center;
+  padding-top: 10px;
 }
 
 .contact-list li {
@@ -72,51 +188,8 @@ a, a:visited, a:active{
   padding: 7px;
 }
 
-/******************** PAGE: skills ********************/
-
-.headline-text {
-  font-size: 25px;
-}
-
-/******************** graph styles for skills ********************/
-
-.bar-graph {
-    list-style: none;
-    padding-top: 10px;
-    width: 45%;
-}
-
-ul.bar-graph li {
-    height: 35px;
-    color: black;
-    text-align: left;
-    font-weight:bolder;
-    font-size: 14px;
-    line-height: 35px;
-    padding: 0px 20px;
-    margin-bottom: 5px;
-}
-
-ul.bar-graph li.red {
-background: #D46D6A;
-border: solid 3px #550200;
-width:100%;
-}
-
-ul.bar-graph li.orange {
-background: #D49B6A;
-width:90%;
-border: solid 3px #552700;
-}
-
-ul.bar-graph li.blue {
-background: #417D80;
-width:80%;
-border: solid 3px #003133;
-}
-
-ul.bar-graph li.green {
-background: #54A759;
-width:70%;
-border: solid 3px #004304;
+.mail-icon {
+  width: 45px;
+  height: 35px;
+  padding:7px;
 }
