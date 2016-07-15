@@ -52,6 +52,11 @@ body, html {
   font-size: 25px;
 }
 
+.placeholder-text {
+  text-align: center;
+  font-size: 50px;
+}
+
 /******************** header ********************/
 
 a, a:visited, a:active{
