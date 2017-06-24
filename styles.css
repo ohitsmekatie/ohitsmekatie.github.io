@@ -1,16 +1,20 @@
 /******************** general ********************/
 
-* {
-  padding: 0;
-  margin: 0;
-}
-
-body, html {
-  height: 100%;
-  width: 100%;
+@font-face {
+    font-family: 'arcadeclassicregular';
+    src: url('../fonts/arcadeclassic-webfont.woff2') format('woff2'),
+         url('../fonts/arcadeclassic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
-  background-color: #EFF0A9;
-  color: #581845;
+  background-color: #C2C1C2;
+  color: black;
+}
+
+h1 {
+  font-family: 'arcadeclassicregular';
+  text-align: center;
+  background-color: #FC15D5;
 }
