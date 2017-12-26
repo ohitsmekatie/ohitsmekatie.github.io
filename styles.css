@@ -10,3 +10,7 @@ strong {
   font-size: 40px;
   color: #EB8960;
 }
+
+a {
+  text-decoration: none;
+}
