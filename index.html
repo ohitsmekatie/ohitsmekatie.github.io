@@ -1,26 +1,116 @@
-<!DOCTYPE html>
 <html>
-
 <head>
-<title>beep beep boop boop beep</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Katie Sipos | Senior Product Manager</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+<body class="bg-teal-100">
 
-<body>
-Hello, I'm <strong>Katie</strong>. I work at <strong>GitHub</strong>. I'm lazy.
-<br>
-<br>
-<br>
-Email me and tell me to work on my site: katie.sipos @ gmail.com
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<div id="app">
+    <nav>
+    <div class="container w-full md:w-1/6 lg:w-1/12 md:fixed md:left-0 md:top-0 md:h-full bg-teal-700">
+        <ul class="mt-8 flex flex-wrap justify-around md:block">
+            <li><a class="mt-3 text-center text-white py-2 px-1 block font-normal antialiased font-sans" href="#about">
+                <svg class="h-8 w-8 mb-1 mx-auto" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5 5.002A5.005 5.005 0 0110 0c2.761 0 5 2.229 5 5.002v1.996A5.005 5.005 0 0110 12c-2.761 0-5-2.229-5-5.002V5.002zM0 16.676A19.908 19.908 0 0110 14c3.643 0 7.058.974 10 2.676V20H0v-3.324z" fill="white" fill-rule="evenodd"/></svg>
+                About Me
+            </a></li>
+            <li><a class="mt-3 text-center text-white py-2 px-1 block font-normal antialiased font-sans" href="#skills">
+                <svg class="h-8 w-8 mb-1 mx-auto" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M13 8V0L3 12h4v8L17 8h-4z" fill="white" fill-rule="evenodd"/></svg>
+                Skills</a></li>
+            <li><a class="mt-3 text-center text-white py-2 px-1 block font-normal antialiased font-sans" href="#portfolio">
+                <svg class="h-8 w-8 mb-1 mx-auto" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z" fill="white" fill-rule="evenodd"/></svg>
+                Portfolio
+            </a></li>
+            <li><a class="mt-3 text-center text-white py-2 px-1 block font-normal antialiased font-sans" href="#experience">
+                <svg class="h-8 w-8 mb-1 mx-auto" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.422 7.094A5.002 5.002 0 003.026.405l3.948 3.949-2.828 2.828L.197 3.234a5.001 5.001 0 006.27 6.56l10.13 10.13 2.828-2.828L9.422 7.094z" fill="white" fill-rule="evenodd"/></svg>
+                Experience</a></li>
+            <li><a class="mt-3 text-center text-white py-2 px-1 block font-normal antialiased font-sans" href="#contact">
+                <svg class="h-8 w-8 mb-1 mx-auto" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 4v14h14v-6l2-2v10H0V2h10L8 4H2zm10.293-.293L4 12v4h4l8.293-8.293-4-4zm1.414-1.414L16 0l4 4-2.293 2.293-4-4z" fill="white" fill-rule="evenodd"/></svg>
+                Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
-  ga('create', 'UA-67853002-1', 'auto');
-  ga('send', 'pageview');
-</script>
+<section class="rounded overflow-hidden shadow-lg p-10 mt-5 bg-white w-5/6 mx-auto md:w-2/3 lg:w-9/12 md:mr-24 md:mr-0" id="about">
+    <h1 class="text-4xl text-gray-700 font-hairline mb-3 mt-6">Katie Sipos</h1>
+    <p class="text-gray-700">Product Manager with specialized experience in user research, quantitative analysis/SQL, programming, quality assurance testing, and project management. Equal parts Data-driven and customer focused.</p>
+
+</section>
+
+
+<section class="rounded overflow-hidden shadow-lg p-10 mt-5 bg-white w-5/6 mx-auto md:w-2/3 lg:w-9/12 md:mr-24 md:mr-0" id="skills">
+    <h1 class="text-4xl text-gray-700 font-hairline mb-3 mt-6">Skills</h1>
+    <ul class="text-gray-700">
+        <li class="mb-3"><span class="font-bold">Frontend:</span> HTML / CSS / Sass / Javascript / Vue.js</li>
+        <li class="mb-3"><span class="font-bold">Backend:</span> LAMP setup, management / PHP, Laravel / SQL</li>
+        <li class="mb-3"><span class="font-bold">Tooling & Workflows:</span> phpunit, laravel dusk, laravel elixir, webpack, gulp, git</li>
+        <li class="mb-3"><span class="font-bold">Content Management Systems:</span> jekyll / pyroCMS / ExpressionEngine</li>
+        <li class="mb-3"><span class="font-bold">Other:</span> Google Search Console, MS Office Suite, Adobe XD, Photoshop, Illustrator and InDesign</li>
+        <li class="mb-3"><span class="font-bold">Currently Learning:</span> <span class="text-gray-500">Containerization with Docker, CI/CD</span></li>
+    </ul>
+</section>
+
+
+<section class="rounded overflow-hidden shadow-lg p-10 mt-5 bg-white w-5/6 mx-auto md:w-2/3 lg:w-9/12 md:mr-24 md:mr-0" id="portfolio">
+    <h1 class="text-4xl text-gray-700 font-hairline mb-3 mt-6">Portfolio</h1>
+    <div class="flex flex-wrap -mx-2 overflow-hidden">
+
+        <!--Project Start-->
+        <!--Just copy this block to add another project :)-->
+        <div class="my-2 px-3 w-full overflow-hidden lg:w-1/2 xl:w-1/3">
+            <a href="www.whatisakatie.com" class="group">
+                <img class="w-full group-hover:shadow-lg" src="https://loremflickr.com/320/240/london" alt="">
+                <p class="mt-3 text-gray-700 text-center group-hover:text-gray-900"><span class="font-bold">Project Name:</span> Words</p>
+            </a>
+        </div>
+        <!--Project End-->
+
+        <div class="my-2 px-3 w-full overflow-hidden lg:w-1/2 xl:w-1/3">
+            <a href="www.whatisakatie.com" class="group">
+                <img class="w-full group-hover:shadow-lg" src="https://loremflickr.com/320/240/paris" alt="">
+                <p class="mt-3 text-gray-700 text-center group-hover:text-gray-900"><span class="font-bold">Project Name:</span> Words</p>
+            </a>
+        </div>
+
+        <div class="my-2 px-3 w-full overflow-hidden lg:w-1/2 xl:w-1/3">
+            <a href="www.whatisakatie.com" class="group">
+                <img class="w-full group-hover:shadow-lg" src="https://loremflickr.com/320/240/dubai" alt="">
+                <p class="mt-3 text-gray-700 text-center group-hover:text-gray-900"><span class="font-bold">Project Name:</span> Words</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="rounded overflow-hidden shadow-lg p-10 mt-5 bg-white w-5/6 mx-auto md:w-2/3 lg:w-9/12 md:mr-24 md:mr-0" id="experience">
+    <h1 class="text-4xl text-gray-700 font-hairline mb-3 mt-6">Experience</h1>
+    <ul class="text-gray-700">
+        <li class="mb-3">Build, test and maintain web-based Laravel applications, often including custom REST API development and API utilization, such as Stripe</li>
+        <li class="mb-3">Build vue.js-based single-page applications</li>
+        <li class="mb-3">Build and maintain LAMP server infrastructure</li>
+        <li class="mb-3">Work directly with clients to evaluate business requirements and develop scope of work</li>
+        <li class="mb-3">Build custom CMS modules, fieltypes, and plugins to meet client needs.</li>
+        <li class="mb-3">Translate photoshop mockups into well tested, performant, and accessible code for multiple devices and browsers</li>
+        <li class="mb-3">Work with code created by others to provide updates to client sites, including asset, copy and theme changes</li>
+        <li class="mb-3">Embrace working in a team environment, from pair programming to vcs</li>
+        <li class="mb-3">Multitask under tight deadlines, provide estimates, and stay on-schedule and on-budget</li>
+        <li class="mb-3">Analyze existing client search engine rankings and analytics, manage SEO-enhancement projects</li>
+
+    </ul>
+</section>
+
+
+<section class="rounded overflow-hidden shadow-lg p-10 mt-5 bg-white w-5/6 mx-auto md:w-2/3 lg:w-9/12 md:mr-24 md:mr-0 text-center" id="contact">
+    <h1 class="text-4xl text-gray-700 font-hairline mb-3 mt-6">Contact</h1>
+    <p class="mt-3 text-gray-700 text-center group-hover:text-gray-900">
+        <span class="font-bold">Email:</span>
+        <a href="mailto:myemail@gmail.com" class="text-teal-700">myemail.at.gmail.com</a>
+    </p>
+</section>
+
+</div>
 
 </body>
 </html>
