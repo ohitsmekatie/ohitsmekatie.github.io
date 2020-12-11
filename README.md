@@ -1,1 +1,1 @@
-whatisakatie.come 
+whatisakatie.com
