@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Katie Sipos | Senior Data Human</title>
+    <!-- makes website look the  same across all browsers (or tries to) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+    <!-- Header and nav sections -->
+    <header>
+        <div class="logo">
+            <img src="assets/img/cats.png" alt="cartoon of cats">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <!-- double underscore denotes subcomponent -->
+            <ul class="nav__list">
+                <li class="nav-item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav-item"><a href="index.html#services" class="nav__link">Skills</a></li>
+                <li class="nav-item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav-item"><a href="index.html#work" class="nav__link">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction section  -->
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Title of <strong>project</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Python, SQL</p>
+        <img src="assets/img/ohitsmekatie.png" alt="cartoon version of katie" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices commodo finibus. Aenean euismod dui
+            porta suscipit faucibus. Maecenas bibendum nisi a consequat elementum. Suspendisse non sapien eu sapien
+            feugiat ultrices. Nullam convallis nibh hendrerit rhoncus imperdiet. Aenean nec congue dolor, a placerat
+            tortor
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices commodo finibus. Aenean euismod dui
+            porta suscipit faucibus. Maecenas bibendum nisi a consequat elementum. Suspendisse non sapien eu sapien
+            feugiat ultrices. Nullam convallis nibh hendrerit rhoncus imperdiet. Aenean nec congue dolor, a placerat
+            tortor. Proin eu blandit nisi. Nulla sed eleifend ante. Quisque sollicitudin, felis pretium venenatis
+            tempor, leo lacus efficitur neque, quis scelerisque orci risus eget metus. Praesent eget cursus augue, in
+            lobortis diam. Proin id semper felis. Nullam dolor massa, ultrices et ipsum id, ultrices mollis dolor.
+            Integer dignissim odio et luctus varius. Nullam consequat augue quis diam commodo, quis pulvinar orci
+            dignissim. Donec viverra nibh eget ipsum posuere fermentum. Donec eleifend, lorem sit amet dignissim
+            consectetur, sapien lacus dictum ipsum, ac tempus massa metus ut nunc.
+        </p>
+        <p>
+            <a href="github.com/ohitsmekatie" class="btn">View on GitHub</a>
+        </p>
+    </div>
+
+    <!-- Footer section  -->
+    <footer class="footer">
+        <a href "mailto:katie.sipos@gmail.com" class="footer__link">katie.sipos @ gmail</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="github.com/ohitsmekatie" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/katiesipos/" class="social-list__link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="www.twitter.com/whatisakatie" class="social-list__link">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
