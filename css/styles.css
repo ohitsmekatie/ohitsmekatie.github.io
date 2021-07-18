@@ -462,7 +462,7 @@ header {
     justify-content: center;
     margin: 2em 0 0;
     padding: 0;
-    padding-bottom: 1em;
+    padding-bottom: 20px;
 }
 
 .social-list__item {
